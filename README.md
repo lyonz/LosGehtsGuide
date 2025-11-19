@@ -169,179 +169,19 @@ The `verificationStatus` field can contain the following values:
 
 The verification provider IDs correspond to the following services:
 
-<Table align={[null,null,"left"]}>
-  <thead>
-    <tr>
-      <th>
-        Provider ID
-      </th>
-
-      <th>
-        Name
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        0
-      </td>
-
-      <td>
-        AT - Bank Ident
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        1
-      </td>
-
-      <td>
-        AT - ID Austria 
-      </td>
-
-      <td>
-        <br />
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        2
-      </td>
-
-      <td>
-        Bank #1
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        3
-      </td>
-
-      <td>
-        Bank #2
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        4
-      </td>
-
-      <td>
-        Open Banking #1
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        5
-      </td>
-
-      <td>
-        Open Banking #2
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        6
-      </td>
-
-      <td>
-        AT - Company Register
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        7
-      </td>
-
-      <td>
-        EU - Company Register
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        8
-      </td>
-
-      <td>
-        SMS Verification
-      </td>
-
-      <td>
-        OTP confirmed
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        9
-      </td>
-
-      <td>
-        N/A
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        10
-      </td>
-
-      <td>
-        DE - Carrier Match
-      </td>
-
-      <td>
-        <br />
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Provider ID | Name                    | Description    |
+|-------------|-------------------------|----------------|
+| 0           | AT - Bank Ident         |                |
+| 1           | AT - ID Austria         |                |
+| 2           | Bank #1                 |                |
+| 3           | Bank #2                 |                |
+| 4           | Open Banking #1         |                |
+| 5           | Open Banking #2         |                |
+| 6           | AT - Company Register   |                |
+| 7           | EU - Company Register   |                |
+| 8           | SMS Verification        | OTP confirmed  |
+| 9           | N/A                     |                |
+| 10          | DE - Carrier Match      |                |
 
 ### Complete Response Fields Reference
 
