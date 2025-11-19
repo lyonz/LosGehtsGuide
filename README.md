@@ -49,13 +49,13 @@ GET /oauth/authorize
 **Development:**
 
 ```
-https://dev.losgehts.at/oauth/authorize?client_id=40&state=abc123&scope=signup,kyc&locale=de
+https://dev.losgehts.at/oauth/authorize?client_id=40&state=abc123&scope=signup&locale=de
 ```
 
 **Production:**
 
 ```
-https://ident.losgehts.at/oauth/authorize?client_id=40&state=abc123&scope=signup,kyc&locale=de
+https://ident.losgehts.at/oauth/authorize?client_id=40&state=abc123&scope=signup&locale=de
 ```
 
 **Security Note:** Always validate the `state` parameter in the callback.
