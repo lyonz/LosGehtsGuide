@@ -1,3 +1,8 @@
+---
+title: OAuth 2.0 Integration Guide
+layout: home
+---
+
 # OAuth 2.0 Integration Guide
 
 This document describes how to integrate with our OAuth 2.0 API for authentication and user data retrieval. It covers the full flow: authorization, token exchange, and user information retrieval. This guide is framework-agnostic and can be applied in web, mobile, or server-side applications.
