@@ -1,4 +1,4 @@
 # _config.yml
-title: Losgehts API Documentation
+title: losgehts.at API Documentation
 description: My project documentation
-theme: minima
+theme: jekyll-theme-slate
