@@ -125,7 +125,9 @@ Authorization: Bearer ACCESS_TOKEN
 
 ```json
 {
-  "token": "ACCESS_TOKEN"
+  "token": "ACCESS_TOKEN",
+  "client_id": "YOUR_CLIENT_ID",
+  "client_secret": "YOUR_CLIENT_SECRET"
 }
 ```
 
