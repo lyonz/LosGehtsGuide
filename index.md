@@ -201,11 +201,11 @@ The following table shows all possible fields that may be returned in the userin
 | StreetVerified           | Boolean | Whether street has been verified               |                                            |
 | Country                  | Text    | User's country                                 | ISO 3166-1 alpha-2 (two uppercase letters) |
 | CountryVerified          | Boolean | Whether country has been verified              |                                            |
-| PhoneNumber              | Text    | User's phone number                            | E.164 standard                             |
-| PhoneNumberInternational | Text    | User's international phone number              | E.164 standard                             |
-| PhoneNumberNational      | Text    | User's national phone number                   |                                            |
-| PhoneCountryCode         | Text    | Phone country code                             | ISO 3166-1 alpha-2 (two uppercase letters) |
-| PhoneCountryPrefix       | Text    | Phone country prefix                           | Without "+"                                |
+| PhoneNumber              | Text    | User's phone number                            | E.164 standard (436803104850)              |
+| PhoneNumberInternational | Text    | User's international phone number              | E.164 standard (436803104850)              |
+| PhoneNumberNational      | Text    | User's national phone number                   | e.g. (0680 3104850)                        |
+| PhoneCountryCode         | Text    | Phone country code                             | ISO 3166-1 alpha-2 (two uppercase letters  |
+| PhoneCountryPrefix       | Text    | Phone country prefix                           | Without "+" e.g. "43"                      |
 | PhoneNumberVerified      | Boolean | Whether phone number has been verified         |                                            |
 | Lang                     | Text    | User's language preference                     | ISO 3166-1 alpha-2 (two uppercase letters) |
 | Currency                 | Text    | User's preferred currency                      | ISO 4217 (three uppercase letters)         |
