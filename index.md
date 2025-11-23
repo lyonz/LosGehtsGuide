@@ -174,34 +174,46 @@ The `verificationStatus` field can contain the following values:
 
 The following table shows all possible fields that may be returned in the userinfo response:
 
-| Field                 | Type    | Description                                  | Format |
-|-----------------------|---------|----------------------------------------------|--------|
-| VerificationId        | Integer | Primary identifier for the verification record |  |
-| Email                 | Text    | User's email address                          |  |
-| EmailConfirmed        | Boolean | Whether email has been confirmed             |  |
-| VerificationStatusId  | Integer | Status of the verification process           |  |
-| Password              | Text    | User's password (encrypted)                  |  |
-| FirstName             | Text    | User's first name                             |  |
-| FirstNameVerified     | Boolean | Whether first name has been verified         |  |
-| LastName              | Text    | User's last name                              |  |
-| LastNameVerified      | Boolean | Whether last name has been verified          |  |
-| DateOfBirth           | Text    | User's date of birth                          | ISO 8601 calendar date format (YYYY-MM-DD) |
-| DateOfBirthVerified   | Boolean | Whether date of birth has been verified      |  |
-| Gender                | Text    | User's gender                                 | MALE, FEMALE, OTHER |
-| GenderVerified        | Boolean | Whether gender has been verified             |  |
-| Nationality           | Text    | User's nationality                            | ISO 3166-1 alpha-2 (two uppercase letters) |
-| NationalityVerified   | Boolean | Whether nationality has been verified        |  |
-| ZipCode               | Text    | User's postal/zip code                        |  |
-| ZipCodeVerified       | Boolean | Whether zip code has been verified           |  |
-| Town                  | Text    | User's town/city                              |  |
-| TownVerified          | Boolean | Whether town has been verified               |  |
-| Street                | Text    | User's street name                            |  |
-| StreetVerified        | Boolean | Whether street has been verified             |  |
-| Country               | Text    | User's country                                | ISO 3166-1 alpha-2 (two uppercase letters) |
-| CountryVerified       | Boolean | Whether country has been verified            |  |
-| PhoneNumber           | Text    | User's phone number                           |  E.164 standard |
-| PhoneNumberVerified   | Boolean | Whether phone number has been verified       |  |
-| Lang                  | Text    | User's language preference                    | ISO 3166-1 alpha-2 (two uppercase letters) |
+|           Field          |   Type  |                   Description                  |                   Format                   |
+|:------------------------:|:-------:|:----------------------------------------------:|:------------------------------------------:|
+| VerificationId           | Integer | Primary identifier for the verification record |                                            |
+| OAuthState               | Text    | OAuth state for authentication                 |                                            |
+| OAuthScope               | Text    | OAuth scopes granted                           |                                            |
+| Email                    | Text    | User's email address                           |                                            |
+| EmailConfirmed           | Boolean | Whether email has been confirmed               |                                            |
+| VerificationStatusId     | Integer | Status of the verification process             |                                            |
+| Password                 | Text    | User's password (encrypted)                    |                                            |
+| FirstName                | Text    | User's first name                              |                                            |
+| FirstNameVerified        | Boolean | Whether first name has been verified           |                                            |
+| LastName                 | Text    | User's last name                               |                                            |
+| LastNameVerified         | Boolean | Whether last name has been verified            |                                            |
+| DateOfBirth              | Text    | User's date of birth                           | ISO 8601 calendar date format (YYYY-MM-DD) |
+| DateOfBirthVerified      | Boolean | Whether date of birth has been verified        |                                            |
+| Gender                   | Text    | User's gender                                  | MALE, FEMALE, OTHER                        |
+| GenderVerified           | Boolean | Whether gender has been verified               |                                            |
+| Nationality              | Text    | User's nationality                             | ISO 3166-1 alpha-2 (two uppercase letters) |
+| NationalityVerified      | Boolean | Whether nationality has been verified          |                                            |
+| ZipCode                  | Text    | User's postal/zip code                         |                                            |
+| ZipCodeVerified          | Boolean | Whether zip code has been verified             |                                            |
+| Town                     | Text    | User's town/city                               |                                            |
+| TownVerified             | Boolean | Whether town has been verified                 |                                            |
+| Street                   | Text    | User's street name                             |                                            |
+| StreetVerified           | Boolean | Whether street has been verified               |                                            |
+| Country                  | Text    | User's country                                 | ISO 3166-1 alpha-2 (two uppercase letters) |
+| CountryVerified          | Boolean | Whether country has been verified              |                                            |
+| PhoneNumber              | Text    | User's phone number                            | E.164 standard                             |
+| PhoneNumberInternational | Text    | User's international phone number              | E.164 standard                             |
+| PhoneNumberNational      | Text    | User's national phone number                   |                                            |
+| PhoneCountryCode         | Text    | Phone country code                             | ISO 3166-1 alpha-2 (two uppercase letters) |
+| PhoneCountryPrefix       | Text    | Phone country prefix                           | Without "+"                                |
+| PhoneNumberVerified      | Boolean | Whether phone number has been verified         |                                            |
+| Lang                     | Text    | User's language preference                     | ISO 3166-1 alpha-2 (two uppercase letters) |
+| Currency                 | Text    | User's preferred currency                      | ISO 4217 (three uppercase letters)         |
+| LimitAmount              | Numeric | User's limit amount                            |                                            |
+| DepositAmount            | Numeric | User's deposit amount                          |                                            |
+| MarketingOptIn           | Boolean | Whether user opted in to marketing             |                                            |
+| AcceptedPrivacy          | Boolean | Whether user accepted privacy policy           |                                            |
+| AcceptedTerms            | Boolean | Whether user accepted terms                    |                                            |
 
 
 **Notes:**
